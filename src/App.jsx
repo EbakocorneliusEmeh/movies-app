@@ -1,6 +1,10 @@
 import './App.css'
 import Header from './components/header';
 import  { useState, useEffect } from 'react';
+import Search from './components/Search';
+import Action from './components/Action';
+import Romance from './components/Romance';
+import Comedy from './components/Comedy';
 
 
 function App() {
@@ -20,14 +24,14 @@ function App() {
 
     fetchMovies();
   }, []);
-
+  
   
 
 
   return ( 
     <>
     <Header />
-    <h1>Latest and Trending</h1>
+    <h1 className='hh'>Latest and Trending</h1>
     <div className='monero'>
    
       {
@@ -50,9 +54,18 @@ function App() {
 
     }
     </div>
-    <div>
-      <h1>Top Searches</h1>
-    </div>
+    <Search />
+    <Action>
+
+    </Action>
+    <Romance>
+
+    </Romance>
+    <Comedy>
+      
+    </Comedy>
+
+
     </>
    
 

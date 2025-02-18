@@ -151,6 +151,25 @@ ul li a {
   left: 70%;
   transition: transform 0.2s;
 }
+.mone{
+  display: flex;
+  gap: 4rem;
+  overflow: auto;
+  margin: 0 auto;
+  background-color: #0f0f0f;
+}
+.hh{
+  background-color: #0f0f0f;
+  color: white;
+  font-size: 3rem;
+}
+.item{
+  width: 138px;
+  height: 178px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
 .image-item:hover {
   transform: scale(1.05);
 }
