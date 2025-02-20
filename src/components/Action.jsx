@@ -1,8 +1,9 @@
 import  { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
-
-function Action (){
+function Action ({detailPage}){
   const [movies, setMovies] = useState([]);
+  console.log(detailPage)
 
 useEffect(() => {
   const fetchMovies = async () => {
@@ -32,7 +33,7 @@ return (
          
         <div className="move" key={index}>
 
-        <img src={`https://media.themoviedb.org/t/p/w300_and_h450_bestv2${item.backdrop_path}`} alt="" className='item' />
+        <img src={`https://media.themoviedb.org/t/p/w300_and_h450_bestv2${item.backdrop_path}`} alt="" className='item' onClick={() => detailPage(item)} />
        
         </div>
 
@@ -51,3 +52,7 @@ return (
 
 }
 export default Action
+
+Action.propTypes = {
+    detailPage: PropTypes.func
+}

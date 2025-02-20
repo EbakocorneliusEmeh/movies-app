@@ -1,4 +1,9 @@
-{/* <h1>Latest and Trending</h1>
+import PropTypes from 'prop-types'
+
+function Fecth({movies}) {
+  return (
+    <div>
+         <h1 className='hh'>Latest and Trending</h1>
     <div className='monero'>
    
       {
@@ -10,5 +15,24 @@
           <img src={`https://media.themoviedb.org/t/p/w300_and_h450_bestv2${item.backdrop_path}`} alt="" className='image-item' />
          
           </div>
-          export default Fetch */}
-          // https://api.themoviedb.org/3/movie/popular?api_key=46c35111faa147ad5c3b9f8442f13655
+
+          </>
+
+        )
+
+      })
+
+
+
+    }
+    </div>
+      
+    </div>
+  )
+}
+
+export default Fecth
+
+Fecth.propTypes = {
+  movies: PropTypes.object.isRequired
+}

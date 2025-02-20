@@ -1,7 +1,7 @@
 import  { useState, useEffect } from 'react';
 
 
-function Romance (){
+function Next (){
   const [movies, setMovies] = useState([]);
 
 useEffect(() => {
@@ -50,6 +50,6 @@ return (
   )
 
 }
-export default Romance
+export default Next
 
   
