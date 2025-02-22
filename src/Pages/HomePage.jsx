@@ -5,7 +5,7 @@ import Search from "../components/Search";
 import Action from "../components/Action";
 import Romance from "../components/Romance";
 import Comedy from "../components/Comedy";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Fecth from "../components/Fecth";
 import { useNavigate } from "react-router";
 
