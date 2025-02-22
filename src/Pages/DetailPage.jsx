@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
-import Headerp from "../components/headerp";
+import Headerp from "../components/Headerp";
 import Episode from "../components/Episode";
 import Next from "../components/next";
 import Footertwo from "../components/Footertwo";
