@@ -136,6 +136,7 @@ ul li a {
   overflow-x: auto;
   margin: 0 auto;
   gap: 5rem;
+  scrollbar-width: none;
 }
 
 .movie {
@@ -161,6 +162,7 @@ ul li a {
   margin: 0 auto;
   background-color: #0f0f0f;
   margin-bottom: 80px;
+  scrollbar-width: none;
 }
 .hh{
   background-color: #0f0f0f;
