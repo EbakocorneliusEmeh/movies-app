@@ -24,7 +24,7 @@ useEffect(() => {
 
 return ( 
   <>
-  <h1 className='hh'>Top Searches</h1>
+  <h1 className='hh'>1 to 8 EPISODE</h1>
   <div className='mone'>
   
     {
@@ -33,7 +33,6 @@ return (
         <>
          
         <div className="move" key={index}>
-        <h2 className='him'>{item.title}</h2> {/* Heading level 2 */}
         <img src={`https://media.themoviedb.org/t/p/w300_and_h450_bestv2${item.backdrop_path}`} alt="" className='item'  onClick={() => detailPage(item)}/>
        
         </div>

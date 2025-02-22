@@ -22,7 +22,7 @@ useEffect(() => {
 
 return ( 
   <>
-  <h1 className='hh'>Romance & Drama</h1>
+  <h1 className='hh'>More like this</h1>
   <div className='mone'>
   
     {
