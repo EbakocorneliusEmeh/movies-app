@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Header() {
   return (
     <>
@@ -55,7 +57,7 @@ export default function Header() {
               <input
                 type="text"
                 value=""
-                onChange={(e) => setQuery(e.target.value)}
+                // onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search for movies,series..."
                 id="man"
               />

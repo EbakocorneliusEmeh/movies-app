@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import DetailPage from "./Pages/DetailPage";
 import HomePage from "./Pages/HomePage";

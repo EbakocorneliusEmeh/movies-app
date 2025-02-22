@@ -93,7 +93,7 @@ ul li a {
   color: white;
   margin-right: 80rem;
 }
-.movies{
+.movies {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -130,7 +130,7 @@ ul li a {
   width: 25px;
 }
 
-.monero{
+.monero {
   background-color: #0f0f0f;
   display: flex;
   overflow-x: auto;
@@ -155,7 +155,7 @@ ul li a {
   left: 70%;
   transition: transform 0.2s;
 }
-.mone{
+.mone {
   display: flex;
   gap: 4rem;
   overflow: auto;
@@ -164,12 +164,12 @@ ul li a {
   margin-bottom: 80px;
   scrollbar-width: none;
 }
-.hh{
+.hh {
   background-color: #0f0f0f;
   color: white;
   font-size: 3rem;
 }
-.item{
+.item {
   width: 138px;
   height: 178px;
   border-radius: 10px;
@@ -218,115 +218,112 @@ ul li a {
     align-content: center;
   }
 }
-.bseven{
+.bseven {
   display: flex;
   flex-direction: column;
 }
-.bsef{
+.bsef {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
 }
-.nana{
+.nana {
   width: 21.8px;
   height: 19px;
   display: flex;
 }
-.app{
+.app {
   width: 157px;
   height: 41px;
   top: 114px;
   /* left: 1031px; */
   border-radius: 40px;
   gap: 2rem;
-
 }
-.goog{
+.goog {
   width: 157px;
   height: 41px;
   top: 114px;
   /* left: 1031px; */
   border-radius: 40px;
 }
-body{
+body {
   background-color: #0f0f0f;
 }
-.d{
+.d {
   color: white;
   display: flex;
   justify-content: space-between;
 }
-.beight{
+.beight {
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
 
-  h1{
+  h1 {
     margin-left: 8rem;
     margin-right: 3rem;
   }
 }
-.bone{
+.bone {
   display: flex;
   align-items: end;
   justify-content: end;
   margin-right: 3rem;
 
-  h1{
+  h1 {
     margin-bottom: 2rem;
   }
 }
-.sd{
+.sd {
   display: flex;
   justify-content: center;
   gap: 3rem;
   color: white;
 }
-.xavi{
+.xavi {
   color: red;
   font-size: 5rem;
 }
 
-
-
-.headerp{
+.headerp {
   height: 100vh;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   filter: brightness(80%);
 }
-.eye{
+.eye {
   width: 48px;
   height: 48px;
   margin-right: 2rem;
   border-width: 1px;
   border-radius: 40px;
 }
-.eyee{
+.eyee {
   width: 48px;
   height: 48px;
   margin-right: 1rem;
   border-width: 1px;
   border-radius: 40px;
 }
-.pinne{
+.pinne {
   display: flex;
   margin-top: 2rem;
   margin-left: 2rem;
 }
-.h11{
+.h11 {
   font-size: 3rem;
   display: flex;
   margin-left: 3rem;
 }
-.pinn{
+.pinn {
   display: flex;
   margin-right: 4rem;
   margin-top: 3rem;
 }
-.bigone{
+.bigone {
   display: flex;
   margin-right: 3rem;
 }

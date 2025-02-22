@@ -1,30 +1,30 @@
-import { useContext } from "react"
-import { Move } from "../Context/move"
-import Headerp from "../components/headerp"
-import Episode from "../components/Episode"
-import Next from "../components/next"
-import Footertwo from "../components/Footertwo"
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router";
+import Headerp from "../components/headerp";
+import Episode from "../components/Episode";
+import Next from "../components/next";
+import Footertwo from "../components/Footertwo";
 
 function DetailPage() {
+  const [movie, setMovie] = useState(null);
+  const params = useParams();
 
-    const { selectMovie } = useContext(Move)
-    console.log(selectMovie)
+  useEffect(() => {
+    const movie = sessionStorage.getItem("movie");
+
+    if (movie) {
+      setMovie(JSON.parse(movie))
+    }
+  }, []);
+
   return (
     <div>
-      <Headerp backgroundImage={selectMovie.backdrop_path}>
-
-      </Headerp>
-      <Episode> 
-
-      </Episode>
-      <Next>
-
-      </Next>
-      <Footertwo>
-        
-      </Footertwo>
+      <Headerp backgroundImage={movie?.backdrop_path || ""} />
+      <Episode />
+      <Next />
+      <Footertwo />
     </div>
-  )
+  );
 }
 
-export default DetailPage
+export default DetailPage;
